@@ -17,7 +17,6 @@ const routes: Routes = [
       import('./modules/dishes/dishes.module').then(
           (module) => module.DishesModule
       ),
-  canActivate: [AuthGuard]
 },
 
 ];

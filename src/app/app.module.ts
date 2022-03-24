@@ -31,7 +31,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     // provider used to create fake backend
     fakeBackendProvider
   ],
-  // bootstrap: [AppComponent]
-  bootstrap: [LoginComponent]
+   bootstrap: [AppComponent]
+  // bootstrap: [LoginComponent]
 })
 export class AppModule { }
